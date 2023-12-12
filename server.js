@@ -25,7 +25,7 @@ app.post("/sendEmail", (req, res) => {
 
   const mailOptions = {
     from: "zakes201725@gmail.com",
-    to: "aubreyjabusetaka@gmail.com",
+    to: "maczitobookings@gmail.com",
     subject: "Inquiry from Maczito Website Contact Form",
     html: `
     <html>
