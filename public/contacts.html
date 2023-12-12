@@ -303,12 +303,9 @@
           <!--RD Mailform-->
           <form
             class="rd-form rd-mailform text-left"
-            method="post"
-            name="booking"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            method="post" name="booking" id="contactForm"
           >
-            <input type="hidden" name="form-name" value="booking" />
+          
             <div class="row row-40">
                 <div class="col-lg-4">
                     <div class="form-wrap">
@@ -581,7 +578,28 @@
                       </div>
                       <div class="box-event-button-wrap">
                         <a class="button button-outline button-sm" href="#"
-                          >buy tickets</a
+                          >Past Event</a
+                        >
+                      </div>
+                    </div>
+                    <div class="box-event novi-bg">
+                      <div class="box-event-date-wrap">
+                        <h3 class="box-event-date-day">8</h3>
+                        <p class="box-event-date-month">Dec</p>
+                      </div>
+                      <div class="box-event-text-wrap">
+                        <h5 class="box-event-text-title">
+                          <a href="#">Hey Neighbour Festival</a>
+                        </h5>
+                        <ul class="box-event-text-location">
+                          <li>Rhino Park</li>
+                          <li>Pretoria</li>
+                          <!-- <li>USA</li> -->
+                        </ul>
+                      </div>
+                      <div class="box-event-button-wrap">
+                        <a class="button button-outline button-sm" href="#"
+                          >Past Event</a
                         >
                       </div>
                     </div>
@@ -602,7 +620,7 @@
                       </div>
                       <div class="box-event-button-wrap">
                         <a class="button button-outline button-sm" href="#"
-                          >buy tickets</a
+                          >Past Event</a
                         >
                       </div>
                     </div>
@@ -622,7 +640,7 @@
                       </div>
                       <div class="box-event-button-wrap">
                         <a class="button button-outline button-sm" href="#"
-                          >buy tickets</a
+                          >Free Entrance</a
                         >
                       </div>
                     </div>
@@ -659,6 +677,9 @@
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/script.js"></script>
+    <!-- Add this script in the head or before the closing </body> tag -->
+
   </body>
 </html>
