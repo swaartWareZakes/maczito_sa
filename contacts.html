@@ -303,9 +303,9 @@
           <!--RD Mailform-->
           <form
             class="rd-form rd-mailform text-left"
-            method="post" name="booking" id="contactForm"
+            method="post" name="booking" data-netlify="true"
           >
-          
+          <input type="hidden" name="form-name" value="booking" />
             <div class="row row-40">
                 <div class="col-lg-4">
                     <div class="form-wrap">
@@ -677,7 +677,7 @@
     </div>
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
-    <script src="js/form.js"></script>
+    <!-- <script src="js/form.js"></script> -->
     <script src="js/script.js"></script>
     <!-- Add this script in the head or before the closing </body> tag -->
 
