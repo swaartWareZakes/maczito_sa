@@ -303,7 +303,7 @@
           <!--RD Mailform-->
           <form
             class="rd-form rd-mailform text-left"
-            method="post" name="booking" netlify data-netlify="true"
+            method="post" name="booking" netlify
           >
           <!-- <input type="hidden" name="form-name" value="booking" /> -->
             <div class="row row-40">
@@ -356,7 +356,7 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="form-wrap">
-                        <button class="button button-primary" type="submit">
+                        <button class="button button-primary" type="submit" onclick="showAlert()">
                             send message
                         </button>
                     </div>
@@ -680,6 +680,11 @@
     <!-- <script src="js/form.js"></script> -->
     <script src="js/script.js"></script>
     <!-- Add this script in the head or before the closing </body> tag -->
+    <script>
+    function showAlert() {
+        alert('Your message has been sent successfully!');
+    }
+    </script>
 
   </body>
 </html>
