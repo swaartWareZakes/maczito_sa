@@ -2307,7 +2307,7 @@
 
         // Replace 'livedemo' condition with a specific date
         settings[$countDownItem.attr("data-type")] = new Date(
-          "2024-02-24T23:59:59"
+          "2024-03-22T23:59:59"
         ); // Countdown to December 31, 2023
 
         $countDownItem.countdown(settings);
